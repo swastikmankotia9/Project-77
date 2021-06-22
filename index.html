@@ -1,97 +1,54 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Open Console</title>
+        <title>Project 77</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Open Console</h1>
+        <h1>
+            Open Console            
+        </h1>
+        <p>
+            Visual Studio Code console shows all number operations' values.
+        </p>
+        <p>
+            The console screen is used to show all the values of the numbers being added and the names in concat form.
+        </p>
+        <p>
+            Right-click your screen to show the controls and press inspect and then open the console to see the console page.
+        </p>
         <script>
-            console.log("Hi i am the console screen");
+            var first_name = "Swastik";
             
-            var x = "swastik ";
+            console.log(first_name);
 
-            console.log(x);
+            var last_name = "Mankotia";
+            
+            console.log(last_name);
 
-            var y = "mankotia";
+            var combine = first_name.concat(last_name);
+            
+            console.log(combine);
 
-            console.log(y);
+            var a = 20;
 
-            var z = x.concat(y);
+            var b = 10;
 
-            console.log(z);
+            var multiply = a * b;
 
-            var a = z.length;
+            console.log(multiply);
 
-            console.log(a);
+            var add = a + b;
 
-            var b = "This is a sentence.";
+            console.log(add);
 
-            console.log(b);
+            var subtract = a - b;
 
-            var c = b.replace("sentence","snowman");
+            console.log(subtract);
 
-            console.log(c);
+            var exponent = a.valueOf(b);
 
-            var d = "IRON";
-
-            var e = d.toLowerCase();
-
-            console.log(e);
-
-            var f = "iron";
-
-            var g = f.toUpperCase();
-
-            console.log(g);
-
-            var h = Math.sqrt(72);
-
-            console.log(h);
-
-            var i = Math.max(7,10,15,4,9,11);
-
-            console.log(i);
-
-            var j = Math.min(7,10,15,4,9,11);
-
-            console.log(j);
-
-            var k = Math.pow(2,3);
-
-            console.log(k);
-
-            var l = 6.12345678909876543234567654321234567
-
-            console.log(l);
-
-            var m = l.toFixed(3);
-
-            console.log(m);
-
-            var n = 7;
-
-            var o = 9;
-
-            console.log(n + o);
-
-            var p = n.toString();
-
-            var q = o.toString();
-
-            console.log(p + q);
-
-            var r = 8;
-
-            console.log(typeof r);
-
-            console.log(typeof x);
-
-            r++;
-
-            console.log(r);
-
-            r--;
-
-            console.log(r);
+            console.log(exponent);
         </script>
     </body>
 </html>
